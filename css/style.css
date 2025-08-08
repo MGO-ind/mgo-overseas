@@ -308,7 +308,7 @@ button {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/banner1.png);
      background-repeat: no-repeat;
      min-height: 900px;
      background-size: 100% 100%;
@@ -796,7 +796,7 @@ button {
      left: 0;
      right: 0;
      content: "";
-     background: url(../images/con_cross.png);
+     background: url(../images/con_cross1.png);
      background-repeat: no-repeat;
      width: 100%;
      height: 100%;
