@@ -358,7 +358,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-10 offset-md-1">
-                        <!--p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p-->
+                        <p>© <span id="currentYear"></span> All Rights Reserved.</a></p>
                      </div>
                   </div>
                </div>
@@ -374,6 +374,10 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script>
+         // Automatically update the current year
+         document.getElementById('currentYear').textContent = new Date().getFullYear();
+      </script>
    </body>
 </html>
 
